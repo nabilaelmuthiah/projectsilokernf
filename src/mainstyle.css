@@ -1,0 +1,243 @@
+/* ---- Body ----*/
+
+* {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    color: #000;
+  }
+
+body{
+  background: linear-gradient(#ebf4f5,#b5c6e0);
+  min-height: 100vh;
+  background-attachment: fixed;
+
+}
+nav{
+  color: #ddd;
+}
+.container .footer-logo{
+  color: #ddd;
+}
+.container-fluid{
+  color: #ddd;
+}
+.container .card {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+  overflow: hidden;
+  transition: 0.5s;
+  background-color: #EFEEF0;
+
+}
+.container fieldset{
+  border-radius: 10px;
+}
+.list-group{
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+  background-color: #EFEEF0;
+  background: #EFEEF0;
+}
+.container table{
+  border: 2px;
+  border-radius:2px;
+  background-color: #EFEEF0;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2); 
+  border-color: #000000;
+}
+.container table a{
+  border: 2px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+  background-color: #fcd2af;
+  background: transparent;
+  
+}
+.container .card p{
+  color: #000;
+
+}
+.container .card a{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #EFEEF0;
+  background-color:transparent;
+  color: #000;
+}
+.card h2{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:transparent;
+  color: #000;
+}
+.container .jumbotron{
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+  overflow: hidden;
+  transition: 0.5s;
+  background-color: #EFEEF0;
+}
+.container .jumbotron h4, p{
+  padding: 2px;
+  margin: 5px;
+}
+.container .jumbotron a{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:transparent;
+  color: #000;
+}
+li{
+  list-style: none;
+}
+button{
+  border-color: black;
+  border-radius: 3px;
+}
+  /* Daftar Mitra */
+  /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: ##C4D4ED;
+  color: 323031;
+}
+
+.modal-body {padding: 2px 16px;
+  background: linear-gradient(#EFEEF0,#b5c6e0);
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: ##C4D4ED;
+  color: 323031;
+}
+
+#Btn {
+  color: #000000;
+  background-color: #EFEEF0;
+  border-radius: 9px;
+  border-color: #000000;
+}
+/* ---- Footer ---- */
+
+.footer-logo{
+    font-family: fantasy;
+    font-size: 24px;
+    float: left;
+}
+.address {
+    float: right;
+    padding-bottom: 20px;
+}
+
